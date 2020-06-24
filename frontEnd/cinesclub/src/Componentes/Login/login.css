@@ -1,0 +1,59 @@
+body, html{
+    background:#900404;
+    height: 100%; 
+}
+
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+
+}
+
+.form-box{
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+    background: #191919 ;
+    text-align: center;
+}
+
+.form-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    text-align: center;
+    border: 2px solid #852B1E;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s ;
+
+
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus,
+.form-box button[type="submit"]:focus{
+    width: 280px;
+    border-color: #FFE1DC;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #B1331E;
+    cursor: pointer;
+}
+
